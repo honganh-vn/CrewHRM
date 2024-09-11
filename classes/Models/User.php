@@ -181,7 +181,7 @@ class User {
 	 * @return array
 	 */
 	public static function getAdministrativeRoles() {
-		return apply_filters( 'crewhrm_hr_roles', array( 'administrator' ) );
+		return apply_filters( 'crewhrm_hr_roles', array( 'administrator', 'hr-manager' ) );
 	}
 
 	/**
